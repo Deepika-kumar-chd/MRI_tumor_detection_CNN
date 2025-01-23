@@ -39,19 +39,19 @@ The Convolutional Neural Network (CNN) architecture comprises:
 
 
 ## Training
- -Epochs: 30
- -Batch Size: 23
- -Optimizer: Adam
- -Loss Function: Sparse Categorical Crossentropy
+-Epochs: 30
+-Batch Size: 23
+-Optimizer: Adam
+-Loss Function: Sparse Categorical Crossentropy
 ![accuracy chart](https://github.com/user-attachments/assets/93fc4bde-d875-4453-9fd9-2c96d2d4a1e8)
 ![loss chart](https://github.com/user-attachments/assets/05eb16a2-b688-4369-a452-e156b0c6ea1a)
 
 ---
 
 ## Results
- -Training Accuracy: 86.97%
- -Validation Accuracy: 91.30%
- -Test Accuracy: 82.06%
+-Training Accuracy: 86.97%
+-Validation Accuracy: 91.30%
+-Test Accuracy: 82.06%
  
 The model demonstrates effective classification with good generalization across unseen data.
 
