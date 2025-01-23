@@ -16,6 +16,9 @@ The primary objective of this project is to:
 - **Source**: [Brain MRI Images for Brain Tumor Detection on Kaggle](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection)
 - **Description**: The dataset consists of brain MRI images categorized into two classes.
 - **Structure**:
+  - brain_tumor_dataset
+    - no (98 images)
+    - yes (155 images)
 ![dataset](https://github.com/user-attachments/assets/8627c372-80dc-4beb-99db-3fd08c797909)
 
 ---
@@ -36,17 +39,20 @@ The Convolutional Neural Network (CNN) architecture comprises:
 
 
 ## Training
-Epochs: 30
-Batch Size: 23
-Optimizer: Adam
-Loss Function: Sparse Categorical Crossentropy
+ -Epochs: 30
+ -Batch Size: 23
+ -Optimizer: Adam
+ -Loss Function: Sparse Categorical Crossentropy
+![accuracy chart](https://github.com/user-attachments/assets/93fc4bde-d875-4453-9fd9-2c96d2d4a1e8)
+![loss chart](https://github.com/user-attachments/assets/05eb16a2-b688-4369-a452-e156b0c6ea1a)
 
 ---
 
 ## Results
-Training Accuracy: 86.97%
-Validation Accuracy: 91.30%
-Test Accuracy: 82.06%
+ -Training Accuracy: 86.97%
+ -Validation Accuracy: 91.30%
+ -Test Accuracy: 82.06%
+ 
 The model demonstrates effective classification with good generalization across unseen data.
 
 ![result](https://github.com/user-attachments/assets/32c2ec72-c270-4b20-aa36-fee0beb57038)
